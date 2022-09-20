@@ -1,0 +1,157 @@
+
+body{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    margin:0px;
+    overflow-x: hidden
+}
+table{
+    width: 97%;
+    margin:0px;
+}
+tr{
+    color:aliceblue;
+}
+#logo{
+    background-color: black;
+    width: 7%;
+}
+#socials{
+    text-align: right;
+    width: 20%;
+}
+#ennzup{
+    margin-right: 1%;
+}
+#logoimg{
+    width: 130px;
+    height: auto;
+    margin-left: 2%;
+    margin-bottom: -2%;
+}
+#logoimg:hover{
+    transform: scale(1.1);
+}
+#description{
+    width: 9%;
+    
+    height:145vh;
+    text-align: center;
+}
+#selfie{
+    height:83vh;
+    background-color: black;
+    width:79vw;
+    text-align: center;
+}
+#menu{
+    height:83vh;
+    width: 11.53%;
+    vertical-align: top;
+}
+#blockchain{
+    color: dodgerblue;
+    font-weight:bold ;
+    margin-bottom: -15px;
+}
+.menutext{
+    text-align: right;
+    font-size:larger;
+    margin-top: 60%;
+    margin-left: 50%;
+    margin-right: -30%;
+    transform: rotate(90deg) ;
+    }
+
+
+#selfieimg{
+    position: absolute;
+    top: 14.5vh;
+    bottom: 0;
+    left: 25vw;
+    right: 0;
+    width:50vw;
+    min-width: none;
+    height:auto;
+    opacity:1;
+}
+
+#selfieimg2{
+    position: absolute;
+    top: 14.5vh;
+  bottom: 0;
+  left: 25vw;
+  right: 0;
+    width:50vw;
+    min-width: none;
+    height:auto;
+    background-color: black;
+
+}
+
+#selfieimg2:hover{
+    opacity: 0;
+}
+#ennzu{
+    width: 50%;
+    text-align: left;
+    font-size: 35px;
+    color: dodgerblue;
+    font-family: 'Poppins', Courier, monospace;
+    font-weight:bold ;
+    text-decoration: none;
+}
+
+
+a:link { text-decoration: none; color: whitesmoke; }
+
+
+a:visited { text-decoration: none; color: whitesmoke; }
+
+
+a:hover { text-decoration: none; color: dodgerblue;}
+
+
+a:active { text-decoration: none;  }
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+
+  svg{
+    width:25px;
+    fill:dodgerblue;
+    padding-right: 1vw;
+  }
+
+  svg:hover{
+    fill:antiquewhite;
+    text-shadow: black;
+  }
+
+  /* Sink */
+.hvr-sink {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-sink:hover, .hvr-sink:focus, .hvr-sink:active {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);}
