@@ -7,8 +7,8 @@ app.get('/', function(req, res) {
     console.log("Home page succesfully loaded");
   });
 
-app.listen(3000, () => {
-    console.log("Listening on port 3000...");
-});
+//app.listen(3000, () => {
+//    console.log("Listening on port 3000...");
+//});
 
 app.use(express.static('./frontend'));
