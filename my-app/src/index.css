@@ -1,6 +1,5 @@
 
 * {
-  overflow-x: hidden
 }
 
 body{
@@ -193,19 +192,17 @@ left: 0px;
 overflow: hidden;
 }
 
-
-
 .v105_148 {
-width: 750px;
-color: rgba(0,163,255,1);
-position: absolute;
+  width: 750px;
+  color: rgba(0,163,255,1);
+  position: absolute;
 
-left: 59px;
-font-family: Poppins;
-font-weight: Bold;
-font-size: 2.5em;
-opacity: 1;
-text-align: left;
+  left: 59px;
+  font-family: Poppins;
+  font-weight: Bold;
+  font-size: 2.5em;
+  opacity: 1;
+  text-align: left;
 }
 .v105_149 {
 width: 40vw;
@@ -332,4 +329,131 @@ transform: translate(0, -20px);
 .separator{
 height: 10vh;
 }
-    
+
+.v105_69 {
+  width: 100%;
+  height: 2608px;
+  background: linear-gradient(rgba(0,0,0,1), rgba(1,2,6,1));
+  opacity: 1;
+  position: relative;
+  top: 33vh;
+  left: 0px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+}
+
+.v105_70 {
+  width:80%;
+  height: 60px;
+  margin: 10px;
+  opacity: 1;
+  top: 80px;
+  margin-left: 75px;
+  margin-top: 40px;
+  color: rgba(0,163,255,1);
+  font-family: Poppins;
+  font-weight: Bold;
+  font-size: 2.5em;
+  opacity: 1;
+  text-align: left;
+}
+.project {
+  width:80%;
+  margin: auto;
+  height:50vh;
+  display:flex;
+}
+.primages{
+  width: 30vw;
+  height: 24vw;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  margin:auto;
+  color:whitesmoke;
+}
+.prtext{
+  width: 30vw;
+  height: 18vw;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  margin:auto;
+  color:whitesmoke;
+}
+
+h3{
+  font-size: 30px;
+  margin-top:0;
+
+}
+.malacon{
+  background: url("../public/pr1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.dripclean{
+  background: url("../public/pr2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.abelia{
+  background: url("../public/pr3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.drippin{
+  background: url("../public/pr4.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.turtleclub{
+  background: url("../public/pr5.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.viewbutton{
+  font-family: 'Poppins', sans-serif;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border-color: dodgerblue;
+  background-color:black;
+  color:dodgerblue;
+  width: 90px;
+  height: 30px;
+}
+
+.viewbutton:hover{
+  border-color: whitesmoke;
+  background-color:dodgerblue;
+  color:whitesmoke;
+  transition: 1s;
+  cursor:pointer;
+}
+
+.description{
+  text-align: justify;
+  font-weight: lighter;
+  font-size: 19px;
+  
+}
+
+.year{
+}
