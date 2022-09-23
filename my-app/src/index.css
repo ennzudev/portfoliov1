@@ -7,7 +7,7 @@ body{
   font-family: 'Poppins', sans-serif;
   margin:0px;
   overflow-x: hidden;
-  font-size: 14px;
+  font-size: 17px;
   background-color: black;
 }
 table{
@@ -38,9 +38,9 @@ tr{
   transform: scale(1.1);
 }
 #description{
-  width: 9%;
+  width: 11%;
   
-  height:145vh;
+  height:140vh;
   text-align: center;
 }
 #selfie{
@@ -180,14 +180,14 @@ overflow: hidden;
 
 .v105_147 {
 width: 50vw;
-height: 70vh;
+height: 75vh;
 background-repeat: no-repeat;
 background-position: center center;
 background-size: cover;
 margin: 16px;
 opacity: 1;
 position: absolute;
-top: 140vh;
+top: 135vh;
 left: 0px;
 overflow: hidden;
 }
@@ -213,8 +213,9 @@ top: 52px;
 font-weight:100;
 text-align: justify;
 left: 59px;
-font-size: 1.5em;
+font-size: 1em;
 text-align: justified;
+margin-left: 0px;
 }
 .v105_150 {
 width: 50vw;
@@ -229,6 +230,7 @@ overflow: hidden;
 
 p{
 font-weight: bold;
+margin-left: 10px;
 }
 .v139_154 {
 width: 20vw;
@@ -287,43 +289,140 @@ transition: transform 1s;
 transform: translate(0, -20px);
 }
 
-@media all and (orientation: portrait) {
-.v105_147 {
-  width: 98vw;
-  top: 105vh;
-}
-.v105_149 {
-  width: 85vw;
-  font-size: 2em;
-}
-.v105_150 {
-  width: 85vw;
-  height:75vw;
-  left: 5vw;
+hr{
+  width:1%;
+  visibility: hidden;
 }
 
-.v139_154 {
-  width: 25vw;
-  height: 30vw;
-  left: 1.2vw;
-  top: 142vw;
-}
+@media screen and (orientation: portrait) {
+  .hvr-sink {
+    padding: 5px;
+  }
+  .v105_147 {
+    width: 100vw;
+    top: 105vh;
+    position: 0;
+    margin:0px;
+  }
+  .v105_148 {
+    position:static;
+    width:100%;
+    text-align: center;
+  }
+  .v105_149 {
+    width: 90vw;
+    font-size: 1em;
+    position: 0;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    left: 0px;
+  }
+  .v105_150 {
+    width: 85vw;
+    height:50vw;
+    left: 5vw;
+    position:static;
+    margin:auto;
+    display:flex;
+    margin-top: 45vh;
+  }
+  .separator{
+    display:none;
+  }
 
-.v139_157 {
-  width: 25vw;
-  height: 30vw;
-  left: 29.6vw;
-  top: 142vw;
+  .v139_154 {
+    width: 25vw;
+    height: 30vw;
+    left: 1.2vw;
+    top: 142vw;
+    position:static;
+    margin: 10px;
 
-}
-.v139_160 {
-  width: 25vw;
-  height: 30vw;
-  left: 58vw;
-  top: calc(27vh - 5vw);
-  top: 142vw;
+  }
 
-}
+  .v139_157 {
+    width: 25vw;
+    height: 30vw;
+    left: 29.6vw;
+    top: 142vw;
+    position:static;
+    margin: 10px;
+
+  }
+  .v139_160 {
+    width: 25vw;
+    height: 30vw;
+    left: 58vw;
+    top: calc(27vh - 5vw);
+    top: 142vw;
+    position:static;
+    margin: 10px;
+
+  }
+  .primages{
+    width: 80vw !important;
+    height: 55vw !important;
+    margin-bottom: 0 !important;
+  }
+  hr{
+    width:80%;
+    visibility: visible;
+    margin-top: 15vh;
+  }
+  .prtext{
+    width: 80vw !important;
+    height: 55vw !important;
+    margin-top:5vh !important;
+  }
+
+  .project{
+    flex-direction: column;
+    width:90% !important;
+    height:75vh !important;
+  }
+  #description{
+    width: 100%;
+    bottom: -105vh;
+    height:0px;
+    bottom:20vh;
+    position: absolute;
+  }
+  #selfieimg, #selfieimg2{
+    top: 16vh;
+    left: 0vw;
+    width:100vw;
+  }
+  #menu{
+    display: none;
+  }
+  #socials{
+    display: flex;
+    top:90vh;
+    right:42vw;
+    position:absolute;
+  }
+  svg{
+    fill:whitesmoke
+  }
+  #logo{
+  width:50%;
+  text-align: right;
+  display:none;
+  }
+  #ennzu{
+    text-align: center;
+    width:100%;
+  }
+  .v105_70 {
+    margin:0px !important;
+    padding-top: 20px;
+    width:100% !important;
+    text-align: center !important;
+  }
+  .v105_69{
+    height:auto !important;
+    top: 0vh !important;
+  }
 }
 
 .separator{
@@ -336,7 +435,7 @@ height: 10vh;
   background: linear-gradient(rgba(0,0,0,1), rgba(1,2,6,1));
   opacity: 1;
   position: relative;
-  top: 33vh;
+  top: 45vh;
   left: 0px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -352,19 +451,20 @@ height: 10vh;
   opacity: 1;
   top: 80px;
   margin-left: 75px;
-  margin-top: 40px;
   color: rgba(0,163,255,1);
   font-family: Poppins;
   font-weight: Bold;
   font-size: 2.5em;
   opacity: 1;
   text-align: left;
+  margin-top: 10px;
 }
 .project {
   width:80%;
   margin: auto;
   height:50vh;
   display:flex;
+  
 }
 .primages{
   width: 30vw;
@@ -390,8 +490,9 @@ height: 10vh;
 h3{
   font-size: 30px;
   margin-top:0;
-
+  margin-bottom: 5px;
 }
+
 .malacon{
   background: url("../public/pr1.png");
   background-repeat: no-repeat;
@@ -452,8 +553,9 @@ h3{
   text-align: justify;
   font-weight: lighter;
   font-size: 19px;
-  
+  margin-left:0px;
 }
 
 .year{
+  margin-left:0px;
 }
