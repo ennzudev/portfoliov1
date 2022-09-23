@@ -1,5 +1,6 @@
 
 * {
+  scroll-behavior: smooth;
 }
 
 body{
@@ -9,6 +10,9 @@ body{
   overflow-x: hidden;
   font-size: 17px;
   background-color: black;
+}
+.mobile{
+  display:none;
 }
 table{
   width: 97%;
@@ -218,7 +222,7 @@ text-align: justified;
 margin-left: 0px;
 }
 .v105_150 {
-width: 50vw;
+width: 45vw;
 height: 96vh;;
 margin: 32px;
 opacity: 1;
@@ -309,6 +313,12 @@ hr{
     width:100%;
     text-align: center;
   }
+  .mobile{
+    display:block;
+  }
+  .desktop{
+    display:none;
+  }
   .v105_149 {
     width: 90vw;
     font-size: 1em;
@@ -363,6 +373,7 @@ hr{
     width: 80vw !important;
     height: 55vw !important;
     margin-bottom: 0 !important;
+    margin-top: 5vh !important;
   }
   hr{
     width:80%;
@@ -378,7 +389,7 @@ hr{
   .project{
     flex-direction: column;
     width:90% !important;
-    height:75vh !important;
+    height:80vh !important;
   }
   #description{
     width: 100%;
@@ -423,12 +434,20 @@ hr{
     height:auto !important;
     top: 0vh !important;
   }
+  .lastwebsite{
+    height: 95vh !important;
+  }
+  .mail{
+    visibility:visible
+  }
 }
 
 .separator{
 height: 10vh;
 }
-
+.mail{
+  visibility:hidden
+}
 .v105_69 {
   width: 100%;
   height: 2608px;
@@ -558,4 +577,12 @@ h3{
 
 .year{
   margin-left:0px;
+}
+
+.footers{
+  margin:auto;
+  width:90%;
+  height:20%;
+  background-color: whitesmoke;
+  text-align: center;
 }
