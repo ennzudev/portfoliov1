@@ -324,9 +324,8 @@ hr{
     width: 80vw;
     font-size: 1em;
     position: 0;
-    margin-left: 10vw;
-    margin-right: 5vw;
     left: 0px;
+    padding-left: 10vw;
   }
   .v105_150 {
     width: 85vw;
