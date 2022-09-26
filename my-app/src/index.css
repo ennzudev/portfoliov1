@@ -31,6 +31,7 @@ tr{
 }
 #ennzup{
   margin-right: 1%;
+  margin-left: 20px;
 }
 #logoimg{
   width: 130px;
@@ -234,7 +235,7 @@ overflow: hidden;
 
 p{
 font-weight: bold;
-margin-left: 10px;
+margin-left: 15px;
 }
 .v139_154 {
 width: 20vw;
@@ -435,7 +436,7 @@ hr{
     top: 0vh !important;
   }
   .lastwebsite{
-    height: 95vh !important;
+    height: 100vh !important;
   }
   .mail{
     visibility:visible
@@ -476,7 +477,7 @@ height: 10vh;
   font-size: 2.5em;
   opacity: 1;
   text-align: left;
-  margin-top: 10px;
+  margin-top: 50px;
 }
 .project {
   width:80%;
